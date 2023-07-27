@@ -1,0 +1,183 @@
+@font-face{
+    font-family: Buba;
+    src: url(ofont.ru_Buba.ttf);
+}
+/*HEADER*/
+.header{
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: #044318e8;
+    box-sizing: border-box;
+    font-family: Buba;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item{
+    list-style: none;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.menu-link{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.container{
+    min-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.banner-title, .banner-description{
+    text-align: center;
+    color: white;
+}
+.banner-title{
+    font-size: 48px;
+    font-family: Buba;
+}
+
+.banner-section{
+    padding: 100px 0;
+    background: url(dop.png);
+    background-size: cover;
+    background-position: center;
+}
+.cards-section{
+    padding: 50px ;
+}
+
+.cards-title, .cards-description{
+    color: #151c39;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-title{
+    font-family: Buba;
+}
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    box-shadow: 0px 2px 40px 0px #92fc9e;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-link{
+    text-decoration: none;
+    color: white;
+}
+
+.card-button{
+    text-align: center;
+    background: #151c39;
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+
+.card-title, .card-text{
+    margin-bottom: 10px;
+}
+
+.footer{
+    background: url(pip.jpg);
+    background-size: cover;
+    padding: 100px 0px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.copyright{
+    color: white;
+    margin-left: 50px;
+}
+
+.card-button{
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.logo-img{
+    margin-right: 20px;
+}
+
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 3;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-networks{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-logo{
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
